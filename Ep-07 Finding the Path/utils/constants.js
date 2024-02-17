@@ -1,0 +1,2 @@
+export const CDN_URL = 'https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/';
+export const LOGO_URL = 'https://img.freepik.com/free-vector/sticker-template-with-food-delivery-banner-isolated_1308-62732.jpg?w=740&t=st=1706329835~exp=1706330435~hmac=7d618ac70aa3e17a948bb29cb0d776e539aafe77faf5e4c8ebfd3b7b44b97d67';

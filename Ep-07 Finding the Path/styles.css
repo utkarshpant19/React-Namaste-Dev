@@ -1,0 +1,94 @@
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo-container > img {
+  width: 100px;
+}
+
+.header {
+  border: 1px solid red;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+ul.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style-type: none;
+  padding: 0 1rem;
+}
+.nav-links li {
+  font-size: 1.5rem;
+}
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+
+.res-card {
+  word-wrap: break-word;
+  background-color: #e1dee1;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+  transition: all 1s;
+}
+.res-card img {
+  width: 100%;
+}
+
+
+.search-container{
+margin: 10px;
+}
+
+.filter{
+  display: flex;
+  gap: 1rem;
+}
+
+.filter-btn{
+  padding: 5px;
+  cursor: pointer;
+
+}
+
+.shimmer-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.shimmer-card{
+  width: 150px;
+  height: 300px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+li>a{
+  text-decoration: none;
+  color: #282828;
+}
+
+.nav-links li:hover {
+  background-color: #f6efef;
+  font-size: 1.5rem;
+  border-radius: 5px;
+}
